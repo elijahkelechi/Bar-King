@@ -10,7 +10,6 @@ const LandingPageContainer = styled.div`
     justify-content: center;
     align-items: center;
     text-wrap: wrap;
-    background-color: red;
   }
 `;
 
