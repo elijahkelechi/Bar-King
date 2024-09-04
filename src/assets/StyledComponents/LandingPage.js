@@ -3,7 +3,7 @@ import styled from "styled-components";
 const LandingPageContainer = styled.div`
   box-sizing: border-box;
   padding: auto;
-  margin: 50px;
+  margin: auto;
 
   /* Centering the content on mobile devices */
   @media (max-width: 768px) {
