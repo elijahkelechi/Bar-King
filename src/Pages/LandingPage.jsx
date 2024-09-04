@@ -17,10 +17,10 @@ const LandingPage = () => {
   // const data = useLoaderData();
   const { drinks, drinkSearch } = useLoaderData();
   return (
-    <LandingPageContainer>
+    <>
       <SearchForm searchTerm={drinkSearch} />
       <CocktailList drinks={drinks} />;
-    </LandingPageContainer>
+    </>
   );
 };
 export default LandingPage;

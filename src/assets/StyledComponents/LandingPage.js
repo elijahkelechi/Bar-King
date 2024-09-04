@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const LandingPageContainer = styled.div`
   box-sizing: border-box;
-  padding: auto;
+  padding: 50px;
   margin: auto;
 
   /* Centering the content on mobile devices */
