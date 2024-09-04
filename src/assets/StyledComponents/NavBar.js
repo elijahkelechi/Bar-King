@@ -1,6 +1,7 @@
 import styled from "styled-components";
 const NavBarContainer = styled.nav`
   background: #ffbf00;
+  width: 100%;
   .nav-center {
     width: var(--view-width);
     max-width: var(--max-width);
