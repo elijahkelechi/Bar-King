@@ -4,5 +4,14 @@ const LandingPageContainer = styled.div`
   box-sizing: border-box;
   padding: 50px;
   margin: auto;
+
+  /* Centering the content on mobile devices */
+  @media (max-width: 768px) {
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+    background-color: red;
+  }
 `;
+
 export default LandingPageContainer;
